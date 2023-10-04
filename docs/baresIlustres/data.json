@@ -1,7 +1,7 @@
 {
     "meta": {
         "app_id": "org.example.same.identifier.manifest.package",
-        "app_title": "Bares Heritage",
+        "app_title": "Bares de Oviedo Heritage",
         "version": 1,
         "updated": "2022-10-04",
         "source_url": "https://UO269509.github.io/poi-quick-app-implementations/baresIlustres/data.json",
@@ -29,7 +29,7 @@
                     "type": "pub",
                     "name": "Joker Deluxe",
                     "images": [
-                        "https://UO269509.github.io/poi-quick-app-implementations/baresIlustres/images/joker.jpg"
+                        "https://github.com/UO269509/poi-quick-app-implementations/blob/main/docs/baresIlustres/images/joker.jpg?raw=true"
                     ],
                     "description": "The best pub on the street",
                     "more": "23:00-05:30",
@@ -43,7 +43,7 @@
                     "type": "pub",
                     "name": "Nunca Jamás",
                     "images": [
-                        "https://UO269509.github.io/poi-quick-app-implementations/baresIlustres/images/nuncajamas.jpg"
+                        "https://github.com/UO269509/poi-quick-app-implementations/blob/main/docs/baresIlustres/images/nuncajamas.jpg?raw=true"
                     ],
                     "description": "Second best pub on the street",
                     "more": "00:00-05:30",
@@ -57,7 +57,7 @@
                     "type": "pub",
                     "name": "Pub La Radio",
                     "images": [
-                        "https://UO269509.github.io/poi-quick-app-implementations/baresIlustres/images/radio.jpg"
+                        "https://github.com/UO269509/poi-quick-app-implementations/blob/main/docs/baresIlustres/images/radio.jpg?raw=true"
                     ],
                     "description": "Another pub on the street",
                     "more": "23:00-05:30",
