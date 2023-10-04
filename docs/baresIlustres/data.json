@@ -1,10 +1,10 @@
 {
     "meta": {
         "app_id": "org.example.same.identifier.manifest.package",
-        "app_title": "City Street Heritage",
+        "app_title": "Bares Heritage",
         "version": 1,
-        "updated": "2022-09-26",
-        "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/data.json",
+        "updated": "2022-10-04",
+        "source_url": "https://UO269509.github.io/poi-quick-app-implementations/baresIlustres/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",        
         "marketplace_url": ""
     },
@@ -12,8 +12,8 @@
         "en": {
             "app": {
                 "theme": {
-                    "brand": "#B11623",
-                    "complementary": "#FAFAFA"
+                    "brand": "#000661",
+                    "complementary": "#FFFFFF"
                 },
                 "repository_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/tree/main/docs/country/city",
                 "text_info": "This app is created by locals and experts. As you can see, it's also free of charge. Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures.",
@@ -23,37 +23,45 @@
                 "issue_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
             },
             "pois": [{
-                    "id": "uniqueID",
-                    "lat": "50.8789629",
-                    "lon": "4.7013242",
-                    "type": "statue",
-                    "name": "My Statue",
+                    "id": "bar-1",
+                    "lat": "43.360912",
+                    "lon": "-5.8462108",
+                    "type": "pub",
+                    "name": "Joker Deluxe",
                     "images": [
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID_1.jpg",
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID_2.jpg"
+                        "https://UO269509.github.io/poi-quick-app-implementations/baresIlustres/images/joker.jpg"
                     ],
-                    "description": "One-paragraph description",
-                    "more": "More description, if you want",
+                    "description": "The best pub on the street",
+                    "more": "23:00-05:30",
                     "urls": [
-                        "https://nl.wikipedia.org/wiki/De_Kotmadam_(Leuven)",
-                        "https://example.org/mypoi"
                     ]
                 },
                 {
-                    "id": "uniqueID-2",
-                    "lat": "50.9",
-                    "lon": "4.8",
-                    "type": "statue",
-                    "name": "My Statue",
+                    "id": "bares-2",
+                    "lat": "43.3609107",
+                    "lon": "-5.8475174",
+                    "type": "pub",
+                    "name": "Nunca Jamás",
                     "images": [
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID2_1.jpg",
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID2_2.jpg"
+                        "https://UO269509.github.io/poi-quick-app-implementations/baresIlustres/images/nuncajamas.jpg"
                     ],
-                    "description": "One-paragraph description",
-                    "more": "More description, if you want",
+                    "description": "Second best pub on the street",
+                    "more": "00:00-05:30",
                     "urls": [
-                        "https://nl.wikipedia.org/MyPoi",
-                        "https://example.org/mypoi"
+                    ]
+                },
+                {
+                    "id": "bares-3",
+                    "lat": "43.3603074",
+                    "lon": "-5.8475308",
+                    "type": "pub",
+                    "name": "Pub La Radio",
+                    "images": [
+                        "https://UO269509.github.io/poi-quick-app-implementations/baresIlustres/images/radio.jpg"
+                    ],
+                    "description": "Another pub on the street",
+                    "more": "23:00-05:30",
+                    "urls": [
                     ]
                 }
             ]
